@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Failed st2ep
-        run: | echo "i fail"
+        run: | 
+          echo "i fail"
         exit 1
       - name: say goodbye
         run: echo "goodbye"
